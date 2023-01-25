@@ -23,6 +23,12 @@
     .main-container, .main-wrapper, .main-elements>p{
         width: 100%;
     }
+    .main-container:first-child{
+        height: 40%;
+    }
+    .main-container:last-child{
+        height: 60%;
+    }
     .main-elements>p{
         text-align: center;
     }
