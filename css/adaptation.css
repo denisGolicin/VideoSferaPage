@@ -1,3 +1,127 @@
-@media (max-width: 554px) {
-	
+@media (max-width: 820px) {
+    body, html{
+        min-width: 100px;
+        min-height: 0 !important;
+        overflow: auto;
+    }
+    header{
+        height: auto;
+        margin-top: 20px;
+    }
+    .header-container{
+        width: 100%;
+    }
+
+    .header-container:last-child{
+        display: none;
+    }
+
+	main{
+        flex-direction: column !important;
+        height: 800px;
+    }
+    .main-container, .main-wrapper, .main-elements>p{
+        width: 100%;
+    }
+    .main-elements>p{
+        text-align: center;
+    }
+    .main-container-bg {
+        top: 0%;
+    }
+    .main-video-bg{
+        transform: translate(-7%, 7%);
+        width: 100%;
+    }
+    .main-video{
+        width: 70%;
+        height: 90%;
+    }
+    .main-elements:nth-child(1){
+        height: 65%;
+        font-size: 40px;
+    }
+    .main-elements:nth-child(2) {
+        height: 30%;
+        font-size: 30px;
+    }
+    .main-elements:nth-child(3) {
+        display: none;
+    }
+    .button-marxiz{
+        width: 70%;
+    }
+    .marxiz-mb{
+        display: flex;
+        align-items: center;
+        height: 15%;
+        margin-bottom: 20px;
+    }
+    iframe{
+        width: 100%;
+    }
+    .main-container-bg{
+        top: 30%;
+        height: 70%;
+        left: 35%;
+        width: 65%;
+    }
+    .main-video-title{
+        text-align: center;
+        padding: 0;
+    }
+
+    footer{
+        height: auto;
+        
+    }
+    .footer-wrapper{
+        width: 100%;
+        margin-left: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    .footer-elements {
+        width: 50%;
+
+    }
+    
+    .footer-elements-text{
+        font-size: 17px;
+    }
+    .footer-elements-icon{
+        height: 100%;
+    }
+    .footer-elements:last-child{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 640px) {
+    
+    .header-wrapper:last-child>p{
+        font-size: 3vw;
+    }
+    .main-elements:nth-child(1){
+        font-size: 5.9vw;
+    }
+    .main-elements:nth-child(2) {
+        font-size: 20px;
+    }
+    .footer-elements-text{
+        font-size: 2.5vw;
+    }
+    .marxiz-mb{
+        font-size: 2.5vw;
+    }
+    .main-video{
+        width: 90%
+    }
+    .main-elements:nth-child(1){
+        padding-bottom: 0 !important;
+    }
+    .main-elements:nth-child(2){
+        padding-top: 0 !important;
+    }
 }
