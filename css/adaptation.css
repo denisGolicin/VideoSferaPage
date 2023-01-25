@@ -11,7 +11,23 @@
     .header-container{
         width: 100%;
     }
-
+    .header-wrapper:first-child{
+        transform: translateY(-100px);
+        opacity: 0;
+        animation: header-anim 1.5s forwards;
+    }
+    .header-wrapper{
+        transform: translateY(-100px);
+        opacity: 0;
+        animation: header-anim 2s forwards;
+        animation-delay: .25s;
+    }
+    @keyframes header-anim {
+        100%{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
     .header-container:last-child{
         display: none;
     }
@@ -36,8 +52,25 @@
         top: 0%;
     }
     .main-video-bg{
-        transform: translate(-7%, 7%);
+        transform: translate(0%, 0%);
         width: 100%;
+        animation: anim-vid 1s forwards;
+        animation-delay: 1.5s;
+    }
+    @keyframes anim-vid {
+        100%{
+            transform: translate(-7%, 7%);
+        }
+    }
+    .button-marxiz::before{
+        transform: translate(0%, 0%);
+        animation: anim-btn 1s forwards;
+        animation-delay: 1.9s;
+    }
+    @keyframes anim-btn {
+        100%{
+            transform: translate(1%, 10%);
+        }
     }
     .main-video{
         width: 70%;
@@ -46,13 +79,26 @@
     .main-elements:nth-child(1){
         height: 65%;
         font-size: 40px;
+        transform: translateX(-500px);
+        opacity: 0;
+        animation: anim-main 1s forwards;
     }
     .main-elements:nth-child(2) {
         height: 30%;
         font-size: 30px;
+        transform: translateX(500px);
+        opacity: 0;
+        animation: anim-main 1s forwards;
+        animation-delay: .3s;
     }
     .main-elements:nth-child(3) {
         display: none;
+    }
+    @keyframes anim-main {
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
     .button-marxiz{
         width: 70%;
@@ -119,7 +165,7 @@
         font-size: 2.5vw;
     }
     .marxiz-mb{
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
     .main-video{
         width: 90%
