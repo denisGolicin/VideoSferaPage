@@ -106,7 +106,14 @@
     }
     .button-marxiz{
         width: 70%;
+        background-color: rgba(255, 255, 255, 0);
         
+    }
+    .button-marxiz::before{
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .button-marxiz>p{
+        display: none;
     }
     .marxiz-mb{
         display: flex;
