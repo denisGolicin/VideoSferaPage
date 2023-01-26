@@ -123,7 +123,7 @@
         z-index: 1;
     }
     .fix-top{
-        transform: translateY(-30px);
+        transform: translateY(-10px);
         z-index: 1;
     }
     .main-video>iframe{
@@ -156,6 +156,9 @@
         opacity: .5;
         animation: anim-title 1s forwards;
         animation-delay: 2s;
+    }
+    .marquiz__button{
+        font-size: 13px;
     }
     @keyframes anim-title {
         100%{
