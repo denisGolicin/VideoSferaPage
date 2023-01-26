@@ -180,7 +180,7 @@ main{
     border: var(--debug-border) solid red;
     font-size: 20px;
 }
-iframe{
+.main-video>iframe{
     position: absolute;
     top: 1%;
     left: 4%;
