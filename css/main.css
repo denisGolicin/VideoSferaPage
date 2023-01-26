@@ -282,3 +282,6 @@ footer{
     justify-content: center;
     align-items: center;
 }
+#marid{
+    display: none;
+}

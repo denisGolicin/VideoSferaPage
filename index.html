@@ -34,7 +34,7 @@
 </head>
 	<body>
 		<div class="maqxiz-wrapper">
-			<div data-marquiz-id="63d23fdc3a4f55004f95ce04"></div>
+			<div id="marid" data-marquiz-id="63d23fdc3a4f55004f95ce04"></div>
 		</div>
 		<header>
 			<div class="header-wrapper">
@@ -137,6 +137,7 @@
 		let showVid = document.querySelector('.main-video-bgi');
 		let buttonM = document.querySelector('.button-marxiz');
 		let marxiz = document.querySelector('.maqxiz-wrapper');
+		let marxiz2 = document.querySelector('#marid');
 
 		showVid.addEventListener('click', function(){
     		showVid.style.display = 'none';
@@ -144,6 +145,7 @@
 
 		buttonM.addEventListener('click', function(){
 			marxiz.style.display = 'block';
+			marxiz2.style.display = 'block';
 		})
 	</script>
 	<script>(function(t, p) {window.Marquiz ? Marquiz.add([t, p]) : document.addEventListener('marquizLoaded', function() {Marquiz.add([t, p])})})('Inline', {id: '63d23fdc3a4f55004f95ce04', buttonText: 'Take Quiz', bgColor: '#ff0017', textColor: '#ffffff', rounded: true, shadow: 'rgba(255, 0, 23, 0.5)', blicked: true, buttonOnMobile: true, radius: '20'})</script>
