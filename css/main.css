@@ -278,9 +278,6 @@ footer{
     transform: translate(-50%, -50%);
 
     z-index: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 #marid{
     display: none;
