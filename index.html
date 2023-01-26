@@ -53,10 +53,10 @@
 		<main>
 			<div class="main-container">
 				<div class="main-wrapper">
-					<div data-marquiz-id="63d23fdc3a4f55004f95ce04"></div>
-					<div class="for-marxiz">
+					<div class="maqxiz-wrapper">
 						
-
+					</div>
+					<div class="for-marxiz">
 						<div class="main-elements">
 							<p>
 								<b>Анимированные ролики</b><br>
@@ -135,10 +135,18 @@
 	</body>
 	<script>
 		let showVid = document.querySelector('.main-video-bgi');
+		let buttonM = document.querySelector('.button-marxiz');
+		let marxiz = document.querySelector('.maqxiz-wrapper');
+		let wpm = document.querySelector('.for-marxiz');
 
 		showVid.addEventListener('click', function(){
     		showVid.style.display = 'none';
 		});
+
+		buttonM.addEventListener('click', function(){
+			wpm.style.display = 'none';
+			marxiz.style.display = 'block';
+		})
 	</script>
 	<script>(function(t, p) {window.Marquiz ? Marquiz.add([t, p]) : document.addEventListener('marquizLoaded', function() {Marquiz.add([t, p])})})('Inline', {id: '63d23fdc3a4f55004f95ce04', buttonText: 'Take Quiz', bgColor: '#ff0017', textColor: '#ffffff', rounded: true, shadow: 'rgba(255, 0, 23, 0.5)', blicked: true, radius: '10'})</script>
 	

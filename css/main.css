@@ -139,6 +139,7 @@ main{
     align-items: center;
     justify-content: center;
     text-align: center;
+    cursor: pointer;
 
     font-size: 18px;
 }
@@ -268,6 +269,7 @@ footer{
 }
 
 .maqxiz-wrapper{
+    display: none;
     width: 90%;
     height: 90%;
     border: 1px solid red;
