@@ -270,26 +270,14 @@ footer{
 
 .maqxiz-wrapper{
     display: block;
-    width: 80%;
-    height: 70%;
+    width: 320px;
+    height: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    justify-content: center;
-    align-items: center;
+    box-shadow: 0 0 5px black;
 
     z-index: 5;
     background-color: rgba(255, 255, 255, 0.815);
-    overflow-x: auto;
-}
-.marquiz__container>iframe{
-    top: 0 !important;
-    left: 0 !important;
-}
-
-
-#marid{
-    display: none;
 }
