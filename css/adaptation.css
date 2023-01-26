@@ -190,7 +190,7 @@
         margin-top: 10px;
     }
 }
-@media (max-height: 836px){
+@media (min-height: 836px){
     main{
         height: 750px;
     }
