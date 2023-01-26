@@ -157,9 +157,7 @@
         animation: anim-title 1s forwards;
         animation-delay: 2s;
     }
-    .marquiz__button{
-        font-size: 13px;
-    }
+    
     @keyframes anim-title {
         100%{
             opacity: 1;
@@ -221,5 +219,8 @@
     }
     .main-video-bgi{
         height: 60%;
+    }
+    .marquiz__button{
+        font-size: 13px !important;
     }
 }
