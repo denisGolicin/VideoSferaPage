@@ -35,7 +35,7 @@
 
 	main{
         flex-direction: column !important;
-        height: 700px;
+        height: 600px;
     }
     .main-container, .main-wrapper, .main-elements>p{
         width: 100%;
