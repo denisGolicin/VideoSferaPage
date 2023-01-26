@@ -5,6 +5,10 @@
         overflow: auto;
         overflow-x: hidden;
     }
+    .maqxiz-wrapper{
+        width: 90%;
+        height: 80%;
+    }
     header{
         height: auto;
         margin-top: 20px;
