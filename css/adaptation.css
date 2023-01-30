@@ -123,7 +123,7 @@
         z-index: 1;
     }
     .fix-top{
-        transform: translateY(-10px);
+        transform: translateY(-40px);
         z-index: 1;
     }
     .main-video>iframe{
@@ -228,4 +228,29 @@
     .marquiz__button{
         font-size: 13px !important;
     }
+}
+
+@media (min-width: 1979px) {
+    .header-wrapper:last-child{
+        font-size: 30px;
+    }
+    .header-container{
+        font-size: 21px;
+    }
+    .main-elements:nth-child(1){
+        font-size: 50px;
+    }
+    .main-elements:nth-child(2){
+        font-size: 40px;
+    }
+    .button-marxiz{
+        font-size: 34px;
+    }
+    .footer-elements-text{
+        font-size: 32px;
+    }
+    .main-video-title{
+        font-size: 35px;
+    }
+
 }
